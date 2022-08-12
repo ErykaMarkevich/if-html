@@ -1,27 +1,27 @@
-header {
-    width: 306px;
-    height: 47px;
-    text-align: center;
-    padding-top: 120px;
-    padding-left: 567px;
-    color: #383838;
+.text_center {
+  width: 306px;
+  height: 47px;
+  text-align: center;
+  margin: auto;
+  padding-top: 120px;
+  color: #383838;
 }
 .line {
-    width: 100px;
-    height: 4px;
-    background-color: #F5BD41;
-    margin-left: 670px;
-    margin-top: 20px;
+  width: 100px;
+  height: 4px;
+  background-color: #f5bd41;
+  margin: auto;
+}
+.offer_container {
+  display: flex;
+  margin: 80px 104px 0px 104px;
+  gap: 16px;
 }
 .offers {
-    display: inline-block;
-    width: 296px;
-    height: 176px;
-    margin-top: 80px;
-    float: left;
-    border-left: 16px none;
-
+  width: 296px;
+  height: 176px;
+  text-align: center;
 }
-.container {
-    margin-left: 104px;
+p {
+  color: #383838;
 }
