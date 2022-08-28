@@ -4,7 +4,6 @@ body {
 }
 .offer_block {
   width: 1440px;
-  height: 569px;
 }
 .text_center {
   width: 306px;
@@ -23,7 +22,7 @@ body {
 }
 .offer_container {
   display: flex;
-  margin: 80px 104px 0 104px;
+  padding: 80px 104px 122px 104px;
   gap: 16px;
 }
 .offers {
@@ -44,23 +43,17 @@ body {
 }
 .footer_container {
   display: flex;
-  margin-left: 104px;
-  padding-top: 120px;
+  padding: 120px 0 0 104px;
   color: #ffffff;
 }
 .about {
-  width: 193px;
-  height: 211px;
+  width: 31.1%;
 }
 .property-types {
-  width: 133px;
-  height: 305px;
-  margin-left: 223px;
+  width: 31.1%;
 }
 .support {
-  width: 232px;
-  height: 117px;
-  margin-left: 283px;
+  width: 31.1%;
 }
 .footer_headers {
   font-family: "Roboto Medium", sans-serif;
