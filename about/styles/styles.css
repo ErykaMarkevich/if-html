@@ -1,17 +1,18 @@
+@import url("./fonts.css");
 body {
   margin: 0;
 }
 .offer_block {
   width: 1440px;
-  height: 569px;
 }
 .text_center {
   width: 306px;
   height: 47px;
   text-align: center;
-  margin: auto;
-  padding-top: 120px;
+  margin: 120px auto 20px;
   color: #383838;
+  font-family: "Roboto Medium", sans-serif;
+  font-size: 40px;
 }
 .line {
   width: 100px;
@@ -21,7 +22,7 @@ body {
 }
 .offer_container {
   display: flex;
-  margin: 80px 104px 0px 104px;
+  padding: 80px 104px 122px 104px;
   gap: 16px;
 }
 .offers {
@@ -29,7 +30,48 @@ body {
   height: 176px;
   text-align: center;
 }
-p {
+.text {
   color: #383838;
   margin-top: 48px;
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 24px;
+}
+.footer_block {
+  width: 1440px;
+  height: 625px;
+  background: #10367c;
+}
+.footer_container {
+  display: flex;
+  padding: 120px 0 0 104px;
+  color: #ffffff;
+}
+.about {
+  width: 31.1%;
+}
+.property-types {
+  width: 31.1%;
+}
+.support {
+  width: 31.1%;
+}
+.footer_headers {
+  font-family: "Roboto Medium", sans-serif;
+  font-size: 20px;
+}
+.column {
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 20px;
+}
+.copy {
+  width: 253px;
+  height: 16px;
+  margin: 64px 0 120px 105px;
+  font-family: 'Roboto Regular', sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
 }
