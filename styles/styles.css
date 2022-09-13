@@ -1,0 +1,170 @@
+@import url("fonts.css");
+body {
+  margin: 0;
+  /* overflow-x: hidden;*/
+}
+.top_section {
+  height: 100vh;
+}
+.background {
+  background: url("../img/castelmezzano-1979546.png");
+  min-height: 900px;
+}
+.header_container {
+  display: flex;
+  align-items: center;
+  padding: 51px 0 0 104px;
+}
+.logo {
+  width: 71.5%;
+}
+.header_text {
+  padding-right: 24px;
+  padding-bottom: 12px;
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+}
+.icons {
+  padding-left: 24px;
+}
+.header_line {
+  width: 50px;
+  height: 4px;
+  margin-left: 998px;
+  background-color: #f5bd41;
+}
+.top_section_text {
+  width: 542px;
+  padding: 196px 0 0 104px;
+  font-family: "Roboto Medium", sans-serif;
+  font-size: 50px;
+  line-height: 59px;
+  color: #ffffff;
+}
+.header_form {
+  display: flex;
+  padding: 100px 0 0 128px;
+  gap: 221px;
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.form {
+  width: 91.4%;
+  height: 64px;
+  display: flex;
+  margin: 24px 0 0 104px;
+  border-radius: 8px;
+  box-shadow: inset 0 0 0 3px #F3F3F4;
+  background: #ffffff;
+}
+.content_form {
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 18px;
+  color: #383838;
+}
+.city {
+  width: 467px;
+}
+.check {
+  box-sizing: border-box;
+  width: 259px;
+  border: 3px solid #f5bd41;
+  border-radius: 8px;
+}
+.position {
+  width: 314px;
+}
+p {
+  padding-left: 24px;
+}
+.form_button {
+  font-family: "Roboto Medium", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+  width: 192px;
+
+  background-color: #3077c6;
+  border: none;
+  box-shadow: none;
+  border-radius: 8px;
+}
+.apps {
+  padding: 120px 0 0 585px;
+  display: flex;
+  gap: 16px;
+}
+.offer_block {
+  height: 569px;
+}
+.text_center {
+  text-align: center;
+  padding: 120px 0 20px 567px;
+  color: #383838;
+  width: 306px;
+  font-family: "Roboto Medium", sans-serif;
+  font-size: 40px;
+}
+.line {
+  width: 100px;
+  height: 4px;
+  background-color: #f5bd41;
+  margin: 0 670px 0 670px;
+}
+.offer_container {
+  display: flex;
+  text-align: center;
+  padding: 80px 0 122px 104px;
+  gap: 16px;
+}
+.offers {
+  width: 296px;
+  height: 176px;
+}
+.text {
+  color: #383838;
+  padding-top: 48px;
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 24px;
+}
+.footer_block {
+  height: 625px;
+  background: #10367c;
+}
+.footer_container {
+  display: flex;
+  padding: 120px 0 0 104px;
+  color: #ffffff;
+}
+.about {
+  width: 33.4%;
+}
+.property-types {
+  width: 33.44%;
+}
+.support {
+  width: 31.1%;
+}
+.footer_headers {
+  font-family: "Roboto Medium", sans-serif;
+  font-size: 20px;
+}
+.column {
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 20px;
+}
+.copy {
+  width: 253px;
+  height: 16px;
+  margin: 64px 0 120px 105px;
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+}
